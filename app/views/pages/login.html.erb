@@ -1,0 +1,7 @@
+<% form_for :login do |l| %>
+  <%= l.label "username" %>
+  <%= l.text_field(:username) %><br />
+  <%= l.label "password" %>
+  <%= l.text_field(:password) %><br /><br />
+  <%= l.submit("Login") %>
+<% end %>
